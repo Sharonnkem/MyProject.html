@@ -1,0 +1,119 @@
+ .button :hover {
+    color: rgb(170, 162, 162);
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+     .LineOne {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-block-color: rgb(220, 220, 220);
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      flex: 1;
+      background-color: white;
+      border-radius: 0%;
+      height: -5px;
+      ;
+      padding-top: 30px;
+      padding-bottom: 10px;
+      margin: none;
+      
+      
+     }
+
+     .left {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      margin-left: 50px;
+      margin-right: -10px;
+      width: 150px;
+     }
+
+     .middle {
+      display: flex;
+      width: 150px;
+      align-items: center;
+      flex-direction: row;
+      margin-left: -40px;
+      margin-right: 20px;
+     
+     }
+
+     .right {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      margin-left: 20px;
+      margin-right: 50px;
+      width: 150px;
+     }
+      
+      .home {
+        display: flex;
+        flex: 1;
+        background-color: white;
+        border: none;
+        margin-left: 0px;
+        margin-right: 5px;
+       
+      }
+
+      .Features{
+        display: flex;
+        flex: 1;
+        background-color: white;
+        border: none;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .products {
+        display: flex;
+        flex: 1;
+        background-color: white;
+        border: none;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .contact {
+        display: flex;
+        flex: 1;
+        background-color: white;
+        border: none;
+        margin-left: 5px;
+        margin-right: 10px;
+        
+      }
+
+      .login {
+        display: flex;
+        flex: 1;
+        background-color: white;
+        border: none;
+      }
+
+      .get {
+        display: flexbox;
+        flex: 1;
+        background-color: rgb(233, 47, 47);
+        border-radius: 5px;
+        color: white;
+        border: none;
+        padding: 30px,30px,30px,30px;
+        height: 30px;
+        width: 80px;
+        font-size: 11px;
+        margin: 20px, 20px,20px,20px;
+      }
+      
